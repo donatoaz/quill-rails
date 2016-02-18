@@ -6,7 +6,7 @@ This gem provides Rails 3/4 asset pipeline loading for [Quill](http://quilljs.co
 Add the following lines to your applications Gemfile:
 
 ```
-gem 'quill-rails', '~> 0.1.0'
+gem 'quill-rails', :git => 'https://github.com/donatoaz/quill-rails.git'
 ```
 
 Then run bundle install to update your application's bundle.
@@ -67,7 +67,7 @@ Because this includes Quill assets, you can also refer to the [Quill Documentati
 
 # Changelog
 
-### 0.1.4
+### 0.1.5
 * Added 'value' option for the helper function (thanks nerdyglasses!)
 * Updated from Quill 0.13 to 0.15
 
@@ -75,12 +75,8 @@ Because this includes Quill assets, you can also refer to the [Quill Documentati
 
 The following features would be nice to have:
 
-- Configuring the default quill_editor e.g. change wrapper, change theme, etc.
-- Have a form helper tag (f.quill_editor)
-- Parse any RTE input for malicious tags
+- Setup paperclip integration for image uploads
 
 # Contributing
 
-Contributors are very welcome! Fork it, branch it, change it, push it, pull request it, and [bop it](https://www.youtube.com/watch?v=fH4XHwefPVY). 
-
-If you have an idea for new features or improving existing features, let me know!
+Contributors are very welcome!

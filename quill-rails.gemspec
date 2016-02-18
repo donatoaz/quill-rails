@@ -3,9 +3,9 @@ require File.expand_path('../lib/quill/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "quill-rails"
-  s.authors     = ["Robert Wiegmann"]
-  s.email       = ["robert.wiegmann@gmail.com"]
-  s.homepage    = "https://github.com/the-robear/quill-rails"
+  s.authors     = ["Robert Wiegmann", "Donato Azevedo"]
+  s.email       = ["robert.wiegmann@gmail.com", "donatoaz@gmail.com"]
+  s.homepage    = "https://github.com/donatoaz/quill-rails"
   s.licenses    = ["BSD 3 Clause", "Copyright (c) 2013, salesforce.com"]
 
   s.summary     = "Quill.js for Rails 3.1/4.0"
